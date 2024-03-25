@@ -1,0 +1,10 @@
+<--""
+   Level DEBUG
+   Handler Stream <_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>
+     Formatter <__main__.CustomFormatter object at 0x1029ae950>
+   |
+   o<--"logger-app"
+   |   Level NOTSET so inherits level DEBUG
+   |
+   o<--"logger-utils"
+       Level NOTSET so inherits level DEBUG
